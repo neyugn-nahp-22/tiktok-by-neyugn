@@ -1,0 +1,161 @@
+.wrapper {
+  padding: 24px 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px 16px;
+  .account-item {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+}
+
+.item-info {
+  flex: 1;
+  margin-left: 12px;
+  width: 70%;
+}
+
+.nickname {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #161823;
+  line-height: 1;
+  margin-right: 4px;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.check {
+  margin-left: 4px;
+  font-size: 1.4rem;
+  color: rgb(32, 213, 236);
+}
+
+.name {
+  font-size: 1.4rem;
+  color: rgb(22 24 35 / 75%);
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.hashtag {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-left: 4px;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.more-btn {
+  width: 30%;
+}
+
+.follow-btn {
+  position: relative;
+  color: #fe2c55;
+  height: 28px;
+  min-width: 88px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 6px 5px;
+  cursor: pointer;
+  margin-left: 114px;
+  margin-top: 10px;
+}
+
+.followed-btn {
+  min-width: none;
+  height: 28px;
+  border: 1px solid #d0d1d1;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 6px 5px;
+  cursor: pointer;
+  margin-left: 114px;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: #f8f8f8;
+  }
+}
+
+.video-list {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+}
+
+.user-video {
+  width: 45%;
+}
+
+video {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: #f8f8f8;
+  margin-top: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.react {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+
+  .statis-btn {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin: 9px 0px;
+    cursor: pointer;
+
+    .more-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .active-icon {
+      color: var(--primary);
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .statistic {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+.space {
+  width: 45%;
+}
